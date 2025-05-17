@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"> 
+        <meta name="viewport" content="width=device-width", initial-scale="1.0">
+        <link rel="stylesheet" href="https://fonts.googleleapis.com/css?family=Open+Sans">
+        <link rel="stylesheet" href="css/master.css">
+    </head>
+    <body>
+        <header>
+            <h1>Simple Task Manager</h1>
+        </header>
+        <main>
+            <section id="input-container">
+                <input type="text" id="input-task" placeholder="Enter for Today, Shift + Enter for Tomorrow">
+            </section>
+            <section id="today-button">
+                <button type="button" id="today-task">Add Task to Today</button>
+            </section>
+            <section id="tomorrow-button">
+                <button type="button" id="tomorrow-task">Add Task to Tomorrow</button>
+            </section>
+            <section id="today-container1">
+                <h3>Today's To-Do List</h3>
+                <ol id ="today-list" class="task-list">
+            </section>
+            <section id="today-container2">
+                </ol>
+                <h3>Today's Completed Tasks</h3>
+                <ol id="today-completed" class="completed-list">
+
+                </ol>
+            </section>
+            <section id="tomorrow-container1">
+                <h3>Tomorrow's To-Do List</h3>
+                <ol id="tomorrow-list" class="task-list">
+
+                </ol>
+            </section>
+            <section id="tomorrow-container2">
+                <h3>Tomorrow's Completed Tasks</h3>
+                <ol id="tomorrow-completed" class="completed-list">
+
+                </ol>
+            </section>
+        </main>
+        <script src="js/scripts.js" charset="utf-8"></script>
+        <footer>Copyright - Parker Niemiec 2025</footer>
+    </body>
+</html>
